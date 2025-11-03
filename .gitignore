@@ -1,1 +1,4 @@
 solution.py
+venv/
+.gitignore
+__pycache__/
