@@ -33,7 +33,7 @@ def step(x):
 # Your code here:
 # -----------------------------------------------
 def ReLu(array, cutoff = 0):
-    array[array < cutoff] = 0
+    array[array < cutoff] = cutoff
     return array
 
 
